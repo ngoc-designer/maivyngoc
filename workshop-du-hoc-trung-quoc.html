@@ -1,0 +1,390 @@
+<!doctype html>
+<html lang="vi">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="index,follow">
+<meta name="geo.region" content="VN" />
+<meta name="geo.placename" content="Ho Chi Minh City" />
+<meta name="geo.position" content="10.754115;106.667118" />
+<meta name="ICBM" content="10.754115, 106.667118" />
+<title>Workshop: Du học Trung Quốc</title>
+<link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+<link href="css/font-awesome.css" rel="stylesheet">
+<link href="css/bootstrap.css" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="css/slick.css">
+<link rel="stylesheet" href="css/jquery.fancybox.css" type="text/css" media="screen"/>
+<link id="switcher" href="css/default-theme.css" rel="stylesheet">
+<link href="css/animate.css" rel="stylesheet" type="text/css">
+<link href="css/default.css" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Farsan|Playfair+Display|Roboto|Roboto+Condensed|Roboto+Slab|Pattaya|Encode+Sans" rel="stylesheet">
+<script language="JavaScript">
+    window.onload = function() {
+        document.addEventListener("contextmenu", function(e) {
+            e.preventDefault();
+        }, false);
+        document.addEventListener("keydown", function(e) {
+            //document.onkeydown = function(e) {
+            // "I" key
+            if (e.ctrlKey && e.shiftKey && e.keyCode == 73) {
+                disabledEvent(e);
+            }
+            // "J" key
+            if (e.ctrlKey && e.shiftKey && e.keyCode == 74) {
+                disabledEvent(e);
+            }
+            // "S" key + macOS
+            if (e.keyCode == 83 && (navigator.platform.match("Mac") ? e.metaKey : e.ctrlKey)) {
+                disabledEvent(e);
+            }
+            // "U" key
+            if (e.ctrlKey && e.keyCode == 85) {
+                disabledEvent(e);
+            }
+            // "F12" key
+            if (event.keyCode == 123) {
+                disabledEvent(e);
+            }
+        }, false);
+ 
+        function disabledEvent(e) {
+            if (e.stopPropagation) {
+                e.stopPropagation();
+            } else if (window.event) {
+                window.event.cancelBubble = true;
+            }
+            e.preventDefault();
+            return false;
+        }
+    };
+</script>
+</head>
+<body>
+<a class="scrollToTop" href="#"><i class="fa fa-arrow-up"></i></a>
+<header id="mu-header">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 col-md-12">
+        <div class="mu-header-area">
+          <div class="row">
+            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+              <div class="mu-header-top-left">
+                <div class="mu-top-phone"> <i class="fa fa-phone"></i> <span> 0866 848 966</span> </div>
+                <div class="mu-top-email"> <i class="fa fa-envelope"></i> <span> hoavanhsk@gmail.com</span> </div>
+              </div>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+              <div class="mu-header-top-right">
+                <nav>
+                  <ul class="mu-top-social-nav">
+                    <li><a href="https://www.facebook.com/hoavanhskthanhpho" target="_blank" rel="nofollow"><span class="fa fa-facebook"></span></a></li>
+                    <li><a href="https://www.instagram.com/hoavanhsk/" target="_blank" rel="nofollow"><span class="fa fa-instagram"></span></a></li>
+                    <li><a href="https://hoavanhsk.tumblr.com/" target="_blank" rel="nofollow"><span class="fa fa-tumblr"></span></a></li>
+                    <li><a href="#" target="_blank" rel="nofollow"><span class="fa fa-linkedin"></span></a></li>
+                    <li><a href="https://www.youtube.com/channel/UCz4y6HP2QWH-v_vgOZ48Qvw" target="_blank" rel="nofollow"><span class="fa fa-youtube"></span></a></li>
+                  </ul>
+                </nav>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+<section id="mu-menu">
+  <nav class="navbar navbar-default" role="navigation">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+        <a class="navbar-brand" href="index.html"><img src="images/logo.png" alt="Hoa văn HSK"/></a> </div>
+      <div id="navbar" class="navbar-collapse collapse">
+        <ul id="top-menu" class="nav navbar-nav navbar-right main-nav">
+          <li><a href="index.html">Trang chủ</a></li>
+          <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Khóa học <span class="fa fa-angle-down"></span></a>
+            <ul class="dropdown-menu" role="menu">
+              <li><a href="tieng-hoa-tong-quat.html">Tiếng Hoa tổng quát</a></li>
+              <li><a href="tieng-hoa-dam-thoai.html">Tiếng Hoa đàm thoại</a></li>
+              <li><a href="luyen-thi-hsk.html">Luyện thi HSK</a></li>
+            </ul>
+          </li>
+          <li><a href="hoat-dong.html">Hoạt động</a></li>
+          <li class="dropdown active"><a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-pencil"></i> Blog <span class="fa fa-angle-down"></span></a>
+            <ul class="dropdown-menu" role="menu">
+              <li><a href="kien-thuc-du-hoc.html">Kiến thức - Du học</a></li>
+              <li><a href="tin-tuc-su-kien.html">Tin tức - Sự kiện</a></li>
+            </ul>
+          </li>
+          <li><a href="lien-he.html">Liên hệ</a></li>
+          <li><a href="#" id="mu-search-icon"><i class="fa fa-search"></i></a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+</section>
+<div id="mu-search">
+  <div class="mu-search-area">
+    <button class="mu-search-close"><span class="fa fa-close"></span></button>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <form class="mu-search-form">
+            <input type="search" placeholder="Nhập từ khóa...">
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<section id="mu-page-breadcrumb">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="mu-page-breadcrumb-area">
+          <h2>Tin tức - Sự kiện</h2>
+          <ol class="breadcrumb">
+            <li><a href="index.html">Trang chủ</a></li>
+            <li style="color: #5192c8">Blog</li>
+            <li class="active" style="color: #68bbff">Tin tức - Sự kiện</li>
+            <li class="active" style="color: #aedbff">Workshop: Du học Trung Quốc</li>
+          </ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section id="mu-course-content">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="mu-course-content-area">
+          <div class="row">
+            <div class="col-md-9">
+              <div class="mu-course-container mu-blog-single">
+                <div class="row">
+                  <div class="col-md-12">
+                    <article class="mu-blog-single-item">
+                      <figure class="mu-blog-single-img"><a href="#"><img alt="Du học Trung Quốc" src="images/event/01.jpg"></a>
+                        <figcaption class="mu-blog-caption">
+                          <h3><a href="workshop-du-hoc-trung-quoc.html"><b>WORKSHOP: DU HỌC TRUNG QUỐC</b></a></h3>
+                        </figcaption>
+                      </figure>
+                      <div class="mu-blog-meta"><i class="fa fa-calendar"></i> 12/5/2019<br/>
+                        <br/>
+                      </div>
+                      <div class="mu-blog-description" align="justify">Trung Quốc là đất nước có nền văn hóa rất gần gũi với Việt Nam. Trong những năm gần đây, Trung Quốc không ngừng phát triển và vươn lên thành cường quốc đứng thứ 2 trên thế giới. Bởi thế, Trung Quốc chính là đích đến lý tưởng trong giấc mơ du học của không ít sinh viên Việt Nam, đặc biệt là các sinh viên khoa Ngôn ngữ Trung Quốc.<br/>
+                        <br/>
+                        Tuy nhiên, muốn du học Trung Quốc thì cần có điều kiện gì, phải chuẩn bị hồ sơ như thế nào, săn tìm học bổng ra sao,… Đó là những vấn đề luôn khiến du học sinh tương lai thấy bối rối và lo ngại.<br/>
+                        <br/>
+                        Thấu hiểu được điều đó, <b>Hoa văn HSK</b> quyết định tổ chức <b>WORKSHOP : DU HỌC TRUNG QUỐC</b>.<br/>
+                        <br/>
+                        Đến với buổi workshop, các bạn sẽ được hướng dẫn chi tiết về việc chuẩn bị hồ sơ, được chuyên gia giúp chỉnh sửa để có được hồ sơ thật hoàn chỉnh.<br/>
+                        <br/>
+                        Mặt khác, chuyên gia còn viết thư tiến cử cho bạn, chia sẻ nhiều kinh nghiệm bổ ích cũng như những “bí kíp” săn học bổng hữu hiệu, giúp bạn thực hiện ước mơ.<br/>
+                        <br/>
+                        <h4><b>THÔNG TIN CHI TIẾT</b></h4>
+                        <br/>
+                        <i class="fa fa-clock-o"></i> <b>Thời gian:</b> 9:00 - 16:00, Chủ Nhật 12/5/2019<br/>
+                        <br/>
+                        <i class="fa fa-map-marker"></i> <b>Địa điểm:</b> 9 Trần Xuân Hòa, P.7, Q.5, TPHCM<br/>
+                        <br/>
+                        <i class="fa fa-microphone"></i> <b>Diễn giả:</b> TS Trương Gia Quyền, Phó khoa Ngữ văn Trung Quốc, Trường ĐH KHXH&NV TPHCM<br/>
+                        <br/>
+                        <i class="fa fa-money"></i> <b>Lệ phí:</b> 500.000 đ<br/>
+                        <br/>
+                        <i class="fa fa-users"></i> <b>Số lượng:</b> 10 người<br/>
+                        <br/>
+                        Du học Trung Quốc là điều kiện tuyệt vời để phát triển sự nghiệp trong tương lai, bạn có thể tiếp xúc với môi trường kinh tế năng động và hiện đại, trong khi chi phí lại thấp hơn rất nhiều so với ở châu Âu và Mỹ.
+                        Đừng bỏ qua cơ hội này, hãy nhanh tay đăng ký tham gia nhé!<br/>
+                        <br/>
+                        <b>* LƯU Ý:</b> <i>Do số lượng có hạn, vậy nên chỉ đăng ký nếu như bạn thật sự có nhu cầu!</i><br/>
+                        <br/>
+                        Hẹn gặp các bạn tại buổi workshop! </div>
+                      <div class="mu-blog-social">
+                        <ul class="mu-news-social-nav">
+                          <li>CHIA SẺ :</li>
+                          <li><a href="#"><span class="fa fa-facebook"></span></a></li>
+                          <li><a href="#"><span class="fa fa-twitter"></span></a></li>
+                          <li><a href="#"><span class="fa fa-linkedin"></span></a></li>
+                        </ul>
+                      </div>
+                    </article>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-12">
+                  <div align="center"><a href="https://docs.google.com/forms/d/e/1FAIpQLSc7o0XmkORm2UWHpvdTwQ48CuNzjsot6Ey5kmJDXJCs5aMgPg/viewform" target="_blank"><img src="images/blog/nut-dang-ky.gif" class="mu-event-submit"/></a></div>
+                </div>
+                <div class="row">
+                  <div class="col-md-12">
+                    <div class="mu-related-item">
+                      <h3><b>TIN LIÊN QUAN</b></h3>
+                      <div class="mu-related-item-area">
+                        <div id="mu-related-item-slide">
+                          <div class="col-md-6">
+                            <article class="mu-blog-single-item">
+                              <figure class="mu-blog-single-img"> <a href="#"><img alt="Thi thử HSK" src="images/event/03.jpg"></a>
+                                <figcaption class="mu-blog-caption">
+                                  <h3><a href="#"><b>THỬ SỨC TRƯỚC KỲ THI</b></a></h3>
+                                </figcaption>
+                              </figure>
+                              <div class="mu-blog-meta"><i class="fa fa-calendar"></i> 24/3/2019</div>
+                              <div class="mu-blog-description">
+                                <p align="justify">Tổ chức thi thử là hoạt động thường kỳ của trung tâm trước mỗi kỳ thi HSK và TOCFL. Buổi thi thử lần này nhằm hỗ trợ các thí sinh tham gia Kỳ thi HSK tháng 4 năm 2019.</p>
+                                <a href="#" class="mu-read-more-btn" style="float: right">Xem thêm</a></div>
+                            </article>
+                          </div>
+                          <div class="col-md-6">
+                            <article class="mu-blog-single-item">
+                              <figure class="mu-blog-single-img"> <a href="#"><img alt="Cathay Life" src="images/event/08.jpg"></a>
+                                <figcaption class="mu-blog-caption">
+                                  <h3><a href="#"><b>CATHAY LIFE TUYỂN DỤNG</b/></a></h3>
+                                </figcaption>
+                              </figure>
+                              <div class="mu-blog-meta"><i class="fa fa-calendar"></i> 4/9/2018</div>
+                              <div class="mu-blog-description">
+                                <p align="justify">Công ty TNHH Bảo hiểm Phi nhân thọ Cathay Việt Nam do Tập đoàn Tài chính Cathay và Công ty con Bảo hiểm Phi nhân thọ Cathay Century cùng nhau thành lập tại Việt Nam.</p>
+                                <a href="#" class="mu-read-more-btn" style="float: right">Xem thêm</a></div>
+                            </article>
+                          </div>
+                          <div class="col-md-6">
+                            <article class="mu-blog-single-item">
+                              <figure class="mu-blog-single-img"> <a href="#"><img alt="Đại học Minh Tân" src="images/event/07.jpg"></a>
+                                <figcaption class="mu-blog-caption">
+                                  <h3><a href="#"><b>ĐẠI HỌC MINH TÂN TUYỂN SINH</b></a></h3>
+                                </figcaption>
+                              </figure>
+                              <div class="mu-blog-meta"><i class="fa fa-calendar"></i> 1/8/2018</div>
+                              <div class="mu-blog-description">
+                                <p align="justify">Đây là dự án hợp tác giữa nhà trường và công xưởng do Bộ Giáo dục Đài Loan thông qua, mục đích là tạo điều kiện cho sinh viên quốc tế có điều kiện kinh tế khó khăn có thể vừa làm vừa học.</p>
+                                <a href="#" class="mu-read-more-btn" style="float: right">Xem thêm</a></div>
+                            </article>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <aside class="mu-sidebar">
+                <div class="mu-single-sidebar">
+                  <h4 style="padding-top: 10px; font-size: 19px"><b>THỂ LOẠI</b></h4>
+                  <ul class="mu-sidebar-catg">
+                    <li><a href="#" style="text-transform: none">Tin tức</a></li>
+                    <li><a href="#" style="text-transform: none">Sự kiện</a></li>
+                  </ul>
+                </div>
+                <div class="mu-single-sidebar">
+                  <h4 style="padding-top: 10px; font-size: 19px"><b>XEM NHIỀU</b></h4>
+                  <div class="mu-sidebar-popular-courses">
+                    <div class="media">
+                      <div class="media-left"> <a href="#"> <img class="media-object" src="images/event/06.jpg" alt="Ngữ pháp HSK"></a></div>
+                      <div class="media-body">
+                        <h4 class="media-heading"><a href="#"><b>Workshop: Ngữ pháp HSK</b></a></h4>
+                        <span class="popular-course-price">28/10/2018</span></div>
+                    </div>
+                    <div class="media">
+                      <div class="media-left"> <a href="#"> <img class="media-object" src="images/event/04.jpg" alt="Taobao"></a></div>
+                      <div class="media-body">
+                        <h4 class="media-heading"><a href="#"><b>Hội thảo: Kiếm tiền từ Taobao</b></a></h4>
+                        <span class="popular-course-price">23/12/2018</span></div>
+                    </div>
+                    <div class="media">
+                      <div class="media-left"> <a href="#"> <img class="media-object" src="images/event/01.jpg" alt="Du học Trung Quốc"></a></div>
+                      <div class="media-body">
+                        <h4 class="media-heading"><a href="workshop-du-hoc-trung-quoc.html"><b>Workshop: Du học Trung Quốc</b></a></h4>
+                        <span class="popular-course-price">12/5/2019</span></div>
+                    </div>
+                  </div>
+                </div>
+                <div class="mu-single-sidebar">
+                  <h4 style="padding-top: 10px; font-size: 19px"><b>LƯU TRỮ</b></h4>
+                  <ul class="mu-sidebar-catg mu-sidebar-archives">
+                    <li><a href="#"><b>2019</b> <span>(3)</span></a>
+                      <ul class="mu-sidebar-catg mu-sidebar-archives">
+                        <li><a href="#">tháng 5 <span> (1)</span></a></li>
+                        <li><a href="#">tháng 4 <span> (1)</span></a></li>
+                        <li><a href="#">tháng 3 <span> (1)</span></a></li>
+                      </ul>
+                    </li>
+                    <li><a href=""><b>2018</b> <span>(6)</span></a></li>
+                    <ul class="mu-sidebar-catg mu-sidebar-archives">
+                      <li><a href="#">tháng 12 <span> (1)</span></a></li>
+                      <li><a href="#">tháng 11 <span> (1)</span></a></li>
+                      <li><a href="#">tháng 10 <span> (1)</span></a></li>
+                      <li><a href="#">tháng 9 <span> (1)</span></a></li>
+                      <li><a href="#">tháng 8 <span> (2)</span></a></li>
+                    </ul>
+                  </ul>
+                </div>
+              </aside>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<footer id="mu-footer">
+  <div class="mu-footer-top">
+    <div class="container">
+      <div class="mu-footer-top-area">
+        <div class="row">
+          <div class="col-lg-4 col-md-4  col-sm-6">
+            <div class="mu-footer-widget">
+              <h4 style="font-size: 17px"><b>CÔNG TY TNHH HOA VĂN HSK</b></h4>
+              <address>
+              <p style="font-size:14px"><b>Địa chỉ:</b> 9 Trần Xuân Hòa, P7, Q5, TPHCM</p>
+              <p style="font-size:14px"><b>Email:</b> hoavanhsk@gmail.com</p>
+              <p style="font-size:14px"><b>Điện thoại:</b> 0866 848 966</p>
+              <p style="font-size:14px"><b>Mã số thuế:</b> 0315039674</p>
+              <p style="font-size:14px"><b>Giám đốc:</b> Tô Phương Cường</p>
+              </address>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-4  col-sm-6">
+            <div class="mu-footer-widget">
+              <h4 style="font-size: 17px"><b>CHÍNH SÁCH & QUY ĐỊNH</b></h4>
+              <p style="font-size:14px"><a href="#" style="color: #FFF"><i class="fa fa-angle-double-right"></i> Chính sách & quy định chung</a></p>
+              <p style="font-size:14px"><a href="#" style="color: #FFF"><i class="fa fa-angle-double-right"></i> Chính sách bảo mật thông tin</a></p>
+              <p style="font-size:14px"><a href="#" style="color: #FFF"><i class="fa fa-angle-double-right"></i> Chính sách hỗ trợ học viên</a></p>
+              <p style="font-size:14px"><a href="#" style="color: #FFF"><i class="fa fa-angle-double-right"></i> Quy định đăng ký & tham gia khóa học</a></p>
+              <p style="font-size:14px"><a href="#" style="color: #FFF"><i class="fa fa-angle-double-right"></i> Quy định thanh toán & hoàn trả học phí</a></p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-4  col-sm-6">
+            <div class="mu-footer-widget">
+              <h4 style="font-size: 17px"><b>ĐĂNG KÝ NHẬN EMAIL</b></h4>
+              <p style="font-size:14px">Để liên tục cập nhật thông tin mới và hữu ích</p>
+              <form class="mu-subscribe-form">
+                <input type="email" placeholder="Nhập email...">
+                <button class="mu-subscribe-btn" type="submit">Đăng ký</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="mu-footer-bottom">
+    <div class="container">
+      <div class="mu-footer-bottom-area">
+        <p style="font-size: 13px">Copyright &copy; 2019 | Hoa văn HSK</p>
+      </div>
+    </div>
+  </div>
+</footer>
+<script src="js/jquery.min.js"></script> 
+<script src="js/bootstrap.js"></script> 
+<script type="text/javascript" src="js/slick.js"></script> 
+<script type="text/javascript" src="js/waypoints.js"></script> 
+<script type="text/javascript" src="js/jquery.counterup.js"></script> 
+<script type="text/javascript" src="js/jquery.mixitup.js"></script> 
+<script type="text/javascript" src="js/jquery.fancybox.pack.js"></script> 
+<script src="js/custom.js"></script>
+</body>
+</html>
